@@ -993,10 +993,6 @@ RewriteRule ^([a-zA-Z]+)$ index.php?page=$1 [L]';
                     $type = 'text';
                 }
 
-                if () {
-                    # code...
-                }
-
                 if ($donnees[$i]['IS_NULLABLE'] == 'NO') {
                     $state = 'required';
                 } else {
